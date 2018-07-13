@@ -16,4 +16,4 @@ end
   def name = (new_name)
     @name_new_name
   end
-  
+end
