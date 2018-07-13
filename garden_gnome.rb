@@ -14,7 +14,7 @@ end
   end
   
   def name;(new_name)
-    @name_new_name = name_new_namenew_name
+    @name_new_name = name_new_name
   end
   
   def ages
