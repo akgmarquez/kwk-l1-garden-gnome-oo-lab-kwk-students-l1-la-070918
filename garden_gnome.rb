@@ -14,7 +14,7 @@ end
   end
   
   def name;(new_name)
-    @name_new_name
+    @name_new_name = name_new_namenew_name
   end
   
   def ages
@@ -22,7 +22,7 @@ end
   end
   
   def ages=(new_name)
-    @ages_new_ages
+    @ages_new_ages = ages_new_ages
   end
   
   def gluten_allergy
