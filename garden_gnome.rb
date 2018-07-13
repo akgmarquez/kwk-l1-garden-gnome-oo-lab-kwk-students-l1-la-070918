@@ -4,5 +4,6 @@ class GardenGnome
   end
 end
 
-def name
-  @name
+  def name
+    @name = name
+  end
