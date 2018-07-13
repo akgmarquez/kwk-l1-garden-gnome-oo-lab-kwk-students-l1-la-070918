@@ -17,3 +17,4 @@ end
     @name_new_name
   end
 end
+ GardenGnome
