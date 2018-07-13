@@ -17,4 +17,5 @@ end
     @name_new_name
   end
   
-  def 
+  def ages
+    
