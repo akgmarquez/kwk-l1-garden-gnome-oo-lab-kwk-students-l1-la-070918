@@ -5,40 +5,17 @@ class GardenGnome
    
    attr_reader :personality, :gnaw, :shout, :introduce_self
    
-   
-  def initialize (name, ages, gluten_allergy, personality, hat_color)
-    @name = name
-    @ages = ages
-    @gluten_allergy = gluten_allergy
-    @personality = personality
-    @hat_color = hat_color
-  end
+   def initialize(personality = "evil", hat_color = "red")
+   @personality = "evil"
+   @hat_color = hat_color
+ end
+ def gnaw
+   return "Gnawing on a tree!!!"
+ end
+ def shout
+   return "GNARLY!!!"
+ end
+ def introduce_self
+   return "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
+ end
 end
-
-  def name
-    @name = name
-  end
-  
-  def name;(new_name)
-    @name_new_name = name_new_name
-  end
-  
-  def ages
-    @ages
-  end
-  
-  def ages=(new_name)
-    @ages_new_ages = ages_new_ages
-  end
-  
-  def gluten_allergy
-    @gluten_allergy
-  end
-  
-  def gluten_allergy=(new_name)
-    @gluten_allergy_new_name
-  end
-  
-  def personality
-    @personality='evil'
-  end
